@@ -1,6 +1,6 @@
 {
   "name": "angular-dynamic-routing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular modules designed to use the output from Angular Front Router",
   "main": "index.js",
   "scripts": {
