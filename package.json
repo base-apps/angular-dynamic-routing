@@ -1,0 +1,32 @@
+{
+  "name": "angular-dynamic-routing",
+  "version": "1.0.0",
+  "description": "Angular modules designed to use the output from Angular Front Router",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/base-apps/angular-dynamic-routing"
+  },
+  "keywords": [
+    "foundation",
+    "angular",
+    "gulpfriendly"
+  ],
+  "author": "Base Apps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/base-apps/angular-dynamic-routing/issues"
+  },
+  "homepage": "https://github.com/base-apps/angular-dynamic-routing",
+  "dependencies": {
+    "angular-front-router": "^1.0.0",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "vinyl-fs": "^1.0.0"
+  }
+}
