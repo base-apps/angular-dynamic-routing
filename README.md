@@ -1,7 +1,7 @@
 # Angular Dynamic Routing
 An angular module designed to create [ui-router](https://github.com/angular-ui/ui-router) states dynamically via a state configuration object.  Use the optional animation module to provide fancy animations during state transitions.
 
-This module was original part of [Foundation for Apps](https://github.com/zurb/foundation-apps) and later [Angular Base Apps](https://github.com/base-apps/angular-base-apps) but now exists as a standalone project.
+These modules were originally part of [Foundation for Apps](https://github.com/zurb/foundation-apps) and later [Angular Base Apps](https://github.com/base-apps/angular-base-apps), but now exist in their own standalone project.
 
 ## Install
 
