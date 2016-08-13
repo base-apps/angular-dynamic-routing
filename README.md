@@ -32,6 +32,6 @@ The dynamic router runs its own .config function when it's injected which digest
 The module also includes a DefaultController which exposes the variables declared in the front-matter.
 
 ### dynamicRouting.animations
-**Dependencies**: ngAnimate, foundation.dynamicRouting
+**Dependencies**: ngAnimate, dynamicRouting
 
 This module is an optional add-on which allows the dynamically routed views to animate as long as there is an animationIn and an animationOut in the front-matter of the template
