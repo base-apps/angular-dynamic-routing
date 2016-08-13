@@ -27,11 +27,11 @@ The `dynamicRouting` module can configure states in one of two ways:
 ### dynamicRouting
 **Dependencies**: ui.router
 
-The dynamic router runs its own .config function when it's injected which digests out `foundationRoutes` object created by angular-front-router.
+Uses the provided state configuration objects to create states for ui-router.
 
-The module also includes a DefaultController which exposes the variables declared in the front-matter.
+The module also includes a DefaultController which exposes the variables declared in the state configuration object.
 
 ### dynamicRouting.animations
 **Dependencies**: ngAnimate, dynamicRouting
 
-This module is an optional add-on which allows the dynamically routed views to animate as long as there is an animationIn and an animationOut in the front-matter of the template
+This module is an optional add-on which allows the dynamically routed views to animate as long as there is an animationIn and an animationOut in the state configuration object.
