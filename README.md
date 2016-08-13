@@ -15,9 +15,9 @@ This library is often combined with [angular-front-router](https://github.com/ba
 
 ## Usage
 
-Include the dynamic routing module and source code:
+Include the dynamic routing modules and source code:
 - `dynamicRouting` - node_modules/angular-dynamic-routing/dynamicRouting.js
-- `dynamicRouting.animations` - node_modules/angular-dynamic-routing/dynamicRouting.animations.js
+- `dynamicRouting.animations` (optional) - node_modules/angular-dynamic-routing/dynamicRouting.animations.js
 
 The `dynamicRouting` module can configure states in one of two ways:
 
