@@ -15,7 +15,9 @@ This library is often combined with [angular-front-router](https://github.com/ba
 
 ## Usage
 
-First include the `dynamicRouting` module, and optionally the `dynamicRouting.animations` module, in your angular app.
+Include the dynamic routing module and source code:
+- `dynamicRouting` - node_modules/angular-dynamic-routing/dynamicRouting.js
+- `dynamicRouting.animations` - node_modules/angular-dynamic-routing/dynamicRouting.animations.js
 
 The `dynamicRouting` module can configure states in one of two ways:
 
@@ -31,7 +33,7 @@ Uses the provided state configuration objects to create states for ui-router.
 
 The module also includes a DefaultController which exposes the variables declared in the state configuration object.
 
-### dynamicRouting.animations
+### dynamicRouting.animations (optional)
 **Dependencies**: ngAnimate, dynamicRouting
 
 This module is an optional add-on which allows the dynamically routed views to animate as long as there is an animationIn and an animationOut in the state configuration object.
