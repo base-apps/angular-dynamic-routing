@@ -21,8 +21,8 @@ Include the dynamic routing modules and source code:
 
 The `dynamicRouting` module can configure states in one of two ways:
 
-1. Assign the state configurations to a `foundationRoutes` global variable
-2. Pass the state configurations to the `$FoundationStateProvider.registerDynamicRoutes` method during the config phase of your application
+1. Assign the state configurations to a `BaseAppsRoutes` global variable
+2. Pass the state configurations to the `$BaseAppsStateProvider.registerDynamicRoutes` method during the config phase of your application
 
 ## Modules
 

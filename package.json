@@ -1,7 +1,7 @@
 {
   "name": "angular-dynamic-routing",
-  "version": "1.0.1",
-  "description": "Angular modules designed to use the output from Angular Front Router",
+  "version": "1.1.0",
+  "description": "Provides dynamic angular state definitions and animations",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

@@ -2,15 +2,15 @@
   'use strict';
 
   angular.module('dynamicRouting', ['ui.router'])
-    .provider('$FoundationState', FoundationState)
+    .provider('$BaseAppsState', BaseAppsState)
     .controller('DefaultController', DefaultController)
     .config(DynamicRoutingConfig)
     .run(DynamicRoutingRun)
   ;
 
-  FoundationState.$inject = ['$stateProvider'];
+  BaseAppsState.$inject = ['$stateProvider'];
 
-  function FoundationState($stateProvider) {
+  function BaseAppsState($stateProvider) {
     var complexViews = {};
 
     this.registerDynamicRoutes = function(routes) {
@@ -141,13 +141,13 @@
     }
   }
 
-  DynamicRoutingConfig.$inject = ['$FoundationStateProvider'];
+  DynamicRoutingConfig.$inject = ['$BaseAppsStateProvider'];
 
-  function DynamicRoutingConfig(FoundationStateProvider) {
+  function DynamicRoutingConfig(BaseAppsStateProvider) {
     // Don't error out if Front Router is not being used
     var foundationRoutes = window.foundationRoutes || [];
 
-    FoundationStateProvider.registerDynamicRoutes(foundationRoutes);
+    BaseAppsStateProvider.registerDynamicRoutes(foundationRoutes);
   }
 
   DynamicRoutingRun.$inject = ['$rootScope', '$state', '$stateParams'];
