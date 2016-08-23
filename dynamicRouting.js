@@ -14,7 +14,7 @@
     var complexViews = {};
 
     this.registerDynamicRoutes = function(routes) {
-      var dynamicRoutes = routes || foundationRoutes;
+      var dynamicRoutes = routes || BaseAppsRoutes;
 
       angular.forEach(dynamicRoutes, function(page) {
         if (page.hasComposed) {
@@ -145,9 +145,9 @@
 
   function DynamicRoutingConfig(BaseAppsStateProvider) {
     // Don't error out if Front Router is not being used
-    var foundationRoutes = window.foundationRoutes || [];
+    var BaseAppsRoutes = window.BaseAppsRoutes || [];
 
-    BaseAppsStateProvider.registerDynamicRoutes(foundationRoutes);
+    BaseAppsStateProvider.registerDynamicRoutes(BaseAppsRoutes);
   }
 
   DynamicRoutingRun.$inject = ['$rootScope', '$state', '$stateParams'];
