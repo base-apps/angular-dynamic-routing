@@ -1,6 +1,6 @@
 {
   "name": "angular-dynamic-routing",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Provides dynamic angular state definitions and animations",
   "main": "index.js",
   "scripts": {
