@@ -11,7 +11,7 @@ Get started by installing angular-dynamic-routing from npm.
 npm install angular-dynamic-routing --save
 ```
 
-This library is often combined with [angular-front-router](https://github.com/base-apps/angular-front-router) which can be used to create the state configuration objects.
+This library is often combined with [base-apps-router](https://github.com/base-apps/base-apps-router) which can be used to create the state configuration objects.
 
 ## Usage
 
